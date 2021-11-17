@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/RoseLuu/roseluu-Portfolio-React/static/js/main.f1c44d16.chunk.js",
+    "main.js.map": "/RoseLuu/roseluu-Portfolio-React/static/js/main.f1c44d16.chunk.js.map",
+    "runtime-main.js": "/RoseLuu/roseluu-Portfolio-React/static/js/runtime-main.da43a73f.js",
+    "runtime-main.js.map": "/RoseLuu/roseluu-Portfolio-React/static/js/runtime-main.da43a73f.js.map",
+    "static/css/2.383c0125.chunk.css": "/RoseLuu/roseluu-Portfolio-React/static/css/2.383c0125.chunk.css",
+    "static/js/2.d07daed8.chunk.js": "/RoseLuu/roseluu-Portfolio-React/static/js/2.d07daed8.chunk.js",
+    "static/js/2.d07daed8.chunk.js.map": "/RoseLuu/roseluu-Portfolio-React/static/js/2.d07daed8.chunk.js.map",
+    "index.html": "/RoseLuu/roseluu-Portfolio-React/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/RoseLuu/roseluu-Portfolio-React/static/css/2.383c0125.chunk.css.map",
+    "static/js/2.d07daed8.chunk.js.LICENSE.txt": "/RoseLuu/roseluu-Portfolio-React/static/js/2.d07daed8.chunk.js.LICENSE.txt",
+    "static/media/rose-pic.2230a755.jpg": "/RoseLuu/roseluu-Portfolio-React/static/media/rose-pic.2230a755.jpg",
+    "static/media/rosepic-cover.1495ee2d.jpg": "/RoseLuu/roseluu-Portfolio-React/static/media/rosepic-cover.1495ee2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da43a73f.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.d07daed8.chunk.js",
+    "static/js/main.f1c44d16.chunk.js"
+  ]
+}
