@@ -10,7 +10,8 @@ const styles = {
 };
 export default function Resume() {
   return (
-    <div style={styles.text} className="m-3">
+    <div style={styles.text} className="container">
+      <h1 style={{ color: "darkblue" }}>Resume</h1>
       <p>
         Visit my{" "}
         <a href={resumePDF} target="_blank">

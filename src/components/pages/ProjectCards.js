@@ -1,25 +1,27 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 const styles = {
-  img: {
+  imgContainer: {
     height: "75%",
-    with: "100%",
-    padding: 25,
-    marginBottom: 20,
     overflow: "hidden",
     textAlign: "center",
     borderRadius: 10,
     backgroundColor: "#ffffff",
   },
+  img: {
+    width: "100%",
+    padding: 10,
+    marginBottom: 20,
+  },
 };
 // Individual Cards
 function ProjectCards(props) {
   return (
-    <div className="card">
-      <div style={styles.img}>
-        <img alt={props.name} src={props.image} />
+    <div className="card m-3 border-dark" style={styles.imgContainer}>
+      <div>
+        <img style={styles.img} alt={props.name} src={props.image} />
       </div>
-      <div className="content">
+      <div className="content" style={{ fontSize: 20, color: "darkblue" }}>
         <p className="card-title">{props.name}</p>
         <p>
           <a href={props.github}>
@@ -35,8 +37,10 @@ function ProjectCards(props) {
             />
           </a>
         </p>
-        <p>({props.topics})</p>
+        <p>Tools: {props.topics}</p>
       </div>
+      <br />
+      <br />
     </div>
   );
 }

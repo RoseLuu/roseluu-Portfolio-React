@@ -6,7 +6,7 @@ function NavBars({ currentPage, handlePageChange }) {
   return (
     <div>
       <header expand="lg" bg="dark" sticky="top">
-        <div className="nav" to="/">
+        <div className="nav bg-dark" to="/">
           <h4>
             <a
               href="#home"

@@ -36,54 +36,68 @@ function Form() {
     setName("");
     setEmail("");
     setMessage("");
+    setErrorMessage("");
   };
   return (
-    <div>
-      <h1>Contact</h1>
-      <form className="form">
-        <div class="mt-5">
-          <label htmlFor="name">Your Name:</label>
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Please enter your name"
-          />
-        </div>
-        <div class="mt-5">
-          <label htmlFor="email">Email Address:</label>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="Please enter your email"
-          />
-        </div>
-        <div class="mt-5">
-          <label htmlFor="message">Message:</label>
-          <textarea
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Please enter the message"
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+    <div className="container">
+      <h1 style={{ color: "darkblue" }}>Contact</h1>
+      <form>
+        <div className="form-row">
+          <div className="form-group col-md-6">
+            <label htmlFor="name" style={{ color: "darkblue" }}>
+              Your Name:
+            </label>
+            <input
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              className="form-control"
+              placeholder="Please enter your name"
+            />
           </div>
-        )}
-        <div class="mt-5 mb-5">
-          <button
-            className="btn btn-outline-dark"
-            type="button"
-            onClick={handleFormSubmit}
-          >
-            Submit
-          </button>
+          <div className="form-group col-md-6">
+            <label htmlFor="email" style={{ color: "darkblue" }}>
+              Email Address:
+            </label>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              className="form-control"
+              placeholder="Please enter your email"
+            />
+          </div>
+          <div className="form-group col-md-6">
+            <label htmlFor="message" style={{ color: "darkblue" }}>
+              Message:
+            </label>
+            <textarea
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              className="form-control"
+              placeholder="Please enter the message"
+            />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text" style={{ color: "darkblue" }}>
+                {errorMessage}
+              </p>
+            </div>
+          )}
+          <div class="mt-5 mb-5">
+            <button
+              className="btn btn-dark"
+              type="button"
+              onClick={handleFormSubmit}
+            >
+              Submit
+            </button>
+          </div>
         </div>
       </form>
     </div>

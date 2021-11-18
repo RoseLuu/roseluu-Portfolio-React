@@ -2,19 +2,40 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 import portfolio from "../project.json";
 
+const styles = {
+  projectPic: {
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
+  wrapper: {
+    paddingTop: 50,
+    justifyContent: "space-around",
+    height: "100%",
+    display: "flex",
+    overflow: "auto",
+    flexFlow: "row wrap",
+    padding: 10,
+    alignContent: "flex-start",
+  },
+};
 function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
+  return (
+    <div className="wrapper" style={styles.wrapper}>
+      {props.children}
+    </div>
+  );
 }
 
 function Portfolio() {
   return (
     <section className="container">
       <div className="project">
-        <h2 className="top-title">Portfolio</h2>
+        <h1 style={{ color: "darkblue" }}>Portfolio</h1>
         <hr></hr>
       </div>
 
-      <Wrapper id="card-data">
+      <Wrapper>
         {portfolio.map((project) => (
           <ProjectCards
             key={project.id}
