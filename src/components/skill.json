@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML 5",
+    "class": "devicon-html5-plain"
+  },
+  {
+    "name": "CSS 3",
+    "class": "devicon-css3-plain"
+  },
+  {
+    "name": "MongoDB",
+    "class": "devicon-mongodb-plain"
+  },
+  {
+    "name": "React",
+    "class": "devicon-react-original"
+  },
+  {
+    "name": "JavaScript",
+    "class": "devicon-javascript-plain"
+  },
+  {
+    "name": "Node.js",
+    "class": "devicon-nodejs-plain"
+  },
+  {
+    "name": "Bootstrap",
+    "class": "devicon-bootstrap-plain"
+  },
+  {
+    "name": "Express",
+    "class": "devicon-express-original"
+  },
+  {
+    "name": "MySql",
+    "class": "devicon-mysql-plain"
+  }
+]

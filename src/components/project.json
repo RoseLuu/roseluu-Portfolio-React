@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Musical Time Machine",
+    "image": "https://user-images.githubusercontent.com/89173968/135728428-03d061c8-c073-4b4b-8167-7a74e4c631a1.png",
+    "github": "https://github.com/RoseLuu/Musical-Time-Machine",
+    "deploy": "https://urbaned0ge.github.io/Musical-Time-Machine/",
+    "topics": "HTML/CSS/JavaScript/API"
+  },
+  {
+    "id": 2,
+    "name": "Homeschool Hookup",
+    "image": "https://user-images.githubusercontent.com/89173968/142333320-affdc1cb-42f7-426e-915e-2d309f577c4d.png",
+    "github": "https://github.com/RoseLuu/HomeSchool_HookUp",
+    "deploy": "https://spooky-castle-63582.herokuapp.com/",
+    "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+  },
+  {
+    "id": 3,
+    "name": "Workout Tracker",
+    "image": "https://user-images.githubusercontent.com/89173968/140853202-e05cd6f3-bd15-44c9-91b8-049d91457f99.png",
+    "github": "https://github.com/RoseLuu/roseluu-NoSQL-Workout-Tracker",
+    "deploy": "https://sleepy-sea-41537.herokuapp.com/",
+    "topics": "node, sequelize, express-session, mongoose, MongoDB Atlas, MongoDB, dotenv"
+  },
+  {
+    "id": 4,
+    "name": "OOP-Team Profile Generator",
+    "image": "https://user-images.githubusercontent.com/89173968/137199895-12cb1e3b-5365-4bfd-a037-ff17a0a9e569.png",
+    "github": "https://github.com/RoseLuu/roseluu-Object-Oriented-Programming-Team-Profile-Generator",
+    "topics": "Back-end: Test with Jest/Node.js/Inquirer/Bootstrap"
+  },
+  {
+    "id": 5,
+    "name": "Note Taker",
+    "image": "https://user-images.githubusercontent.com/89173968/137452584-756f71a6-04b5-4e8e-b8cb-763dce52ebb6.png",
+    "github": "https://github.com/RoseLuu/roseluu-express.js-Note-Taker",
+    "deploy": "https://dry-meadow-47853.herokuapp.com/",
+    "topics": "node, express, javascript, uuid, mySQL, nodemon"
+  },
+  {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://user-images.githubusercontent.com/89173968/134731471-6393d774-befe-48b1-8f3a-015b3ef04cf2.png",
+    "github": "https://github.com/RoseLuu/roseluu-homework5-ThirdPartyAPIs-WorkDayScheduler",
+    "deploy": "https://roseluu.github.io/roseluu-homework5-ThirdPartyAPIs-WorkDayScheduler/",
+    "topics": "HTML5, CSS, Javascript, JQuery, Bootstrap"
+  }
+]
