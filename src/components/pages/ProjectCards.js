@@ -11,17 +11,29 @@ const styles = {
   img: {
     width: "100%",
     padding: 10,
-    marginBottom: 20,
+    marginBottom: 10,
+  },
+  card: {
+    height: 450,
+    width: 400,
+    position: "relative",
   },
 };
 // Individual Cards
 function ProjectCards(props) {
   return (
-    <div className="card m-3 border-dark" style={styles.imgContainer}>
-      <div>
+    <div className="card m-3 border-dark" style={styles.card}>
+      <div style={styles.imgContainer}>
         <img style={styles.img} alt={props.name} src={props.image} />
       </div>
-      <div className="content" style={{ fontSize: 20, color: "darkblue" }}>
+      <div
+        style={{
+          fontSize: 20,
+          color: "darkblue",
+          fontWeight: "bold",
+          textAlign: "center",
+        }}
+      >
         <p className="card-title">{props.name}</p>
         <p>
           <a href={props.github}>
