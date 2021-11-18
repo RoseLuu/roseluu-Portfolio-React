@@ -7,7 +7,7 @@ function NavBars({ currentPage, handlePageChange }) {
     <div>
       <header expand="lg" bg="dark" sticky="top">
         <div className="nav bg-dark" to="/">
-          <h4>
+          <h1>
             <a
               href="#home"
               onClick={() => handlePageChange("Home")}
@@ -19,10 +19,11 @@ function NavBars({ currentPage, handlePageChange }) {
             >
               Rose Luu
             </a>
-          </h4>
+          </h1>
           <ul className="nav nav-tabs ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a
+                style={{ marginTop: 15 }}
                 href="#about"
                 onClick={() => handlePageChange("About")}
                 // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -35,6 +36,7 @@ function NavBars({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
+                style={{ marginTop: 15 }}
                 href="#portfolio"
                 onClick={() => handlePageChange("Portfolio")}
                 className={
@@ -46,6 +48,7 @@ function NavBars({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
+                style={{ marginTop: 15 }}
                 href="#resume"
                 onClick={() => handlePageChange("Resume")}
                 className={
@@ -57,6 +60,7 @@ function NavBars({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
+                style={{ marginTop: 15 }}
                 href="#contact"
                 onClick={() => handlePageChange("Contact")}
                 // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
