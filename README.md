@@ -24,7 +24,7 @@ This is a simple portfolio react app.
 Homepage
 <br />
 
-<img width="1142" alt="Screen Shot 2021-11-17 at 10 00 47 PM" src="https://user-images.githubusercontent.com/89173968/142360878-9c86fa14-d9ff-4a2f-a21f-b2b5150f828d.png">
+<img width="1131" alt="Screen Shot 2021-11-17 at 10 19 14 PM" src="https://user-images.githubusercontent.com/89173968/142362793-f6cd7368-fb2c-40e5-a8e9-b8a2dd969c4d.png">
 
 # Installation
 
