@@ -13,15 +13,15 @@
     "image": "https://user-images.githubusercontent.com/89173968/142333320-affdc1cb-42f7-426e-915e-2d309f577c4d.png",
     "github": "https://github.com/RoseLuu/HomeSchool_HookUp",
     "deploy": "https://spooky-castle-63582.herokuapp.com/",
-    "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv, bulma"
   },
   {
     "id": 3,
-    "name": "Workout Tracker",
-    "image": "https://user-images.githubusercontent.com/89173968/140853202-e05cd6f3-bd15-44c9-91b8-049d91457f99.png",
-    "github": "https://github.com/RoseLuu/roseluu-NoSQL-Workout-Tracker",
-    "deploy": "https://sleepy-sea-41537.herokuapp.com/",
-    "topics": "node, sequelize, express-session, mongoose, MongoDB Atlas, MongoDB, dotenv"
+    "name": "Photographer Phinder",
+    "image": "https://user-images.githubusercontent.com/90050383/144127610-263e2743-cb68-458a-aef7-4a4d54b74302.png",
+    "github": "https://github.com/RoseLuu/photophinder2",
+    "deploy": "https://radiant-beyond-44177.herokuapp.com/",
+    "topics": "node, React, Material-UI, Express, mongoose, MongoDB Atlas, MongoDB, GraphQL, Apollo"
   },
   {
     "id": 4,

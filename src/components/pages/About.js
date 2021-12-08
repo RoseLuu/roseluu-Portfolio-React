@@ -29,6 +29,12 @@ export default function About() {
           experience and been known for working well in both group and solo
           projects.
           <br />
+          <br />
+          I'm delighted to leverage my technical talents and collaborative
+          personality to help your team write cleaner code, uncover problems,
+          and continue to develop novel and exciting work as an ardent student
+          and natural "helper."
+          <br />
           <br />I also have passion in music, fiction-movie and travel. My
           favorite movie of all time is Harry Potter. Contact me to talk about
           code or anything that you want to discuss.

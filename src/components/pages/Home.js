@@ -25,7 +25,10 @@ export default function Home() {
         </h1>
         <br />
         <p className="text-center" style={styles.text}>
-          I am Rose Luu, a passionate software engineer. 
+          I am Rose Luu, a passionate software engineer. My goal as a creator is
+          to develop innovative quality products. I'm confident I can bring my
+          passion for learning, creativity, and core technical skills to UX to
+          help your team achieve its goals.
           <br />
           <br />
           Thank you for visiting my website!
